@@ -1,205 +1,333 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Penguin Fashion</title>
     <!-- Bootstrap Css -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
 
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
     <!-- Custom Css -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-
     <!-- Navbar -->
     <header class="bg-tomato d-flex justify-content-around sticky-top">
-        <div class="container">
-            <nav class="navbar navbar-expand-lg">
-                <div class="container">
-                  <a class="navbar-brand text-light" href="#"><span class="text-color fs-2 fw-bold ">PENGUIN</span> FASHION</a>
-                  <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse justify-content-center fs-5 fw-semibold" id="navbarNav">
-                    <ul class="navbar-nav">
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#home" >Home</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#product">Product</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">About Us</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link ">Contact Us</a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </nav>
-        </div>
+      <div class="container">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container">
+            <a class="navbar-brand text-light" href="#"
+              ><span class="text-color fs-2 fw-bold">PENGUIN</span> FASHION</a
+            >
+            <button
+              class="navbar-toggler bg-light"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="collapse navbar-collapse justify-content-center fs-5 fw-semibold"
+              id="navbarNav"
+            >
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#home"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#product">Product</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact">Contact Us</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
     </header>
 
-<br>
+    <br />
 
-<!-- Banner -->
+    <!-- Banner -->
 
-
-<section class="banner" id="home">
-  <div class="container py-4">
-    <div class="row gy-4">
-      <div class="col-lg-7">
-        <div class="banner-image">
-          <img width="407px" class="img-fluid" src="images/shoes/Group 33092.png" alt="">
-        </div>
-      </div>
-      <div class="col-lg-5 d-flex align-items-center">
-        <div>
-          <h1 class="fw-bold"><span class="text-color ">NIKE REACT</span> <br>INFINITY RUN 2</h1>
-          <p class="text-muted fw-semibold">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
-          <button class="btn bg-tomato fw-bold">
-            Buy Now
-          </button>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-
-<!-- Casual Shoes -->
-
-<section class="casual-shoes mt-5" id="product">
-  <div class="container">
-    <h1 class="py-3">Casual Shoes</h1>
-    <div class="row row-cols-1 row-cols-md-3 g-4">
-
-      <div class="col">
-        <div class="card">
-          <img width="299px" class="img-fluid" src="images/shoes/shoes1.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h2 class="card-title">Nike Shoe</h2>
-            <p class="card-text text-muted fw-semibold">Lorem Ipsum is simply dummy text of the 
-              printing and typesetting industry.</p>
-            <div class="d-flex justify-content-between">
-              <h2>$234</h2>
-              <button type="button" class="btn bg-tomato fw-bold">Buy Now</button>
+    <section class="banner" id="home">
+      <div class="container py-4">
+        <div class="row gy-4">
+          <div class="col-lg-7">
+            <div class="banner-image">
+              <img
+                width="407px"
+                class="img-fluid"
+                src="images/shoes/Group 33092.png"
+                alt=""
+              />
             </div>
           </div>
-          
-        </div>
-      </div>
-
-      <div class="col">
-        <div class="card">
-          <img width="299px" class="img-fluid" src="images/shoes/shoes1.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h2 class="card-title">Nike Shoe</h2>
-            <p class="card-text text-muted fw-semibold">Lorem Ipsum is simply dummy text of the 
-              printing and typesetting industry.</p>
-            <div class="d-flex justify-content-between">
-              <h2>$234</h2>
-              <button type="button" class="btn bg-tomato fw-bold">Buy Now</button>
+          <div class="col-lg-5 d-flex align-items-center">
+            <div>
+              <h1 class="fw-bold">
+                <span class="text-color">NIKE REACT</span> <br />INFINITY RUN 2
+              </h1>
+              <p class="text-muted fw-semibold">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry
+              </p>
+              <button class="btn bg-tomato fw-bold">Buy Now</button>
             </div>
           </div>
-          
         </div>
       </div>
+    </section>
 
-      <div class="col">
-        <div class="card">
-          <img width="299px" class="img-fluid" src="images/shoes/shoes1.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h2 class="card-title">Nike Shoe</h2>
-            <p class="card-text text-muted fw-semibold">Lorem Ipsum is simply dummy text of the 
-              printing and typesetting industry.</p>
-            <div class="d-flex justify-content-between">
-              <h2>$234</h2>
-              <button type="button" class="btn bg-tomato fw-bold">Buy Now</button>
+    <!-- Casual Shoes -->
+
+    <section class="casual-shoes mt-5" id="product">
+      <div class="container">
+        <h1 class="py-3">Casual Shoes</h1>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card">
+              <img
+                width="299px"
+                class="img-fluid"
+                src="images/shoes/shoes1.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h2 class="card-title">Nike Shoe</h2>
+                <p class="card-text text-muted fw-semibold">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry.
+                </p>
+                <div class="d-flex justify-content-between">
+                  <h2>$234</h2>
+                  <button type="button" class="btn bg-tomato fw-bold">
+                    Buy Now
+                  </button>
+                </div>
+              </div>
             </div>
           </div>
-          
-        </div>
-      </div>
 
-    </div>
-  </div>
-</section>
-
-
-
-<!-- Formal Shoes -->
-
-
-<section class="formal-shoes mt-5">
-  <div class="container">
-    <h1 class="py-3">Formal Shoes</h1>
-    <div class="row row-cols-1 row-cols-md-3 g-4">
-
-      <div class="col">
-        <div class="card">
-          <img width="299px" class="img-fluid" src="images/shoes/Rectangle1.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h3 class="card-title">Slip On Formal Shoe</h3>
-            <p class="card-text text-muted fw-semibold">Lorem Ipsum is simply dummy text of the 
-              printing and typesetting industry.</p>
-            <div class="d-flex justify-content-between">
-              <h2>$234</h2>
-              <button type="button" class="btn bg-tomato fw-bold"><i class="fa-solid fa-cart-shopping"></i> Buy Now</button>
+          <div class="col">
+            <div class="card">
+              <img
+                width="299px"
+                class="img-fluid"
+                src="images/shoes/shoes1.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h2 class="card-title">Nike Shoe</h2>
+                <p class="card-text text-muted fw-semibold">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry.
+                </p>
+                <div class="d-flex justify-content-between">
+                  <h2>$234</h2>
+                  <button type="button" class="btn bg-tomato fw-bold">
+                    Buy Now
+                  </button>
+                </div>
+              </div>
             </div>
           </div>
-          
-        </div>
-      </div>
 
-      <div class="col">
-        <div class="card">
-          <img width="299px" class="img-fluid" src="images/shoes/Rectangle3.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h3 class="card-title">Prestig High-Cut leather</h3>
-            <p class="card-text text-muted fw-semibold">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-            <div class="d-flex justify-content-between">
-              <h2>$234</h2>
-              <button type="button" class="btn bg-tomato fw-bold">Buy Now</button>
+          <div class="col">
+            <div class="card">
+              <img
+                width="299px"
+                class="img-fluid"
+                src="images/shoes/shoes1.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h2 class="card-title">Nike Shoe</h2>
+                <p class="card-text text-muted fw-semibold">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry.
+                </p>
+                <div class="d-flex justify-content-between">
+                  <h2>$234</h2>
+                  <button type="button" class="btn bg-tomato fw-bold">
+                    Buy Now
+                  </button>
+                </div>
+              </div>
             </div>
           </div>
-          
         </div>
       </div>
+    </section>
 
-      <div class="col">
-        <div class="card">
-          <img width="299px" class="img-fluid" src="images/shoes/Rectangle2.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h3 class="card-title">Slip On Formal Shoe</h3>
-            <p class="card-text text-muted fw-semibold">Lorem Ipsum is simply dummy text of the 
-              printing and typesetting industry.</p>
-            <div class="d-flex justify-content-between">
-              <h2>$234</h2>
-              <button type="button" class="btn bg-tomato fw-bold">Buy Now</button>
+    <!-- Formal Shoes -->
+
+    <section class="formal-shoes mt-5">
+      <div class="container">
+        <h1 class="py-3">Formal Shoes</h1>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card">
+              <img
+                width="299px"
+                class="img-fluid"
+                src="images/shoes/Rectangle1.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h3 class="card-title">Slip On Formal Shoe</h3>
+                <p class="card-text text-muted fw-semibold">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry.
+                </p>
+                <div class="d-flex justify-content-between">
+                  <h2>$234</h2>
+                  <button type="button" class="btn bg-tomato fw-bold">
+                    <i class="fa-solid fa-cart-shopping"></i> Buy Now
+                  </button>
+                </div>
+              </div>
             </div>
           </div>
-          
+
+          <div class="col">
+            <div class="card">
+              <img
+                width="299px"
+                class="img-fluid"
+                src="images/shoes/Rectangle3.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h3 class="card-title">Prestig High-Cut leather</h3>
+                <p class="card-text text-muted fw-semibold">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry.
+                </p>
+                <div class="d-flex justify-content-between">
+                  <h2>$234</h2>
+                  <button type="button" class="btn bg-tomato fw-bold">
+                    Buy Now
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <img
+                width="299px"
+                class="img-fluid"
+                src="images/shoes/Rectangle2.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h3 class="card-title">Slip On Formal Shoe</h3>
+                <p class="card-text text-muted fw-semibold">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry.
+                </p>
+                <div class="d-flex justify-content-between">
+                  <h2>$234</h2>
+                  <button type="button" class="btn bg-tomato fw-bold">
+                    Buy Now
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
+    </section>
 
-    </div>
-  </div>
-</section>
+    <!-- Contact Section -->
 
+    <section class="contact mt-5 py-5" id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="d-flex">
+              <div class="icon">
+                <img width="78px" src="images/icons/image 12.png" alt="" />
+              </div>
+              <div class="px-4">
+                <h3>Find the Perfect Fit</h3>
+                <p class="text-muted fw-semibold">
+                  Everybody is different, which is why we offer styles for every
+                  body.
+                </p>
+              </div>
+            </div>
+            <div class="d-flex">
+              <div class="icon">
+                <img width="78px" src="images/icons/image 13.png" alt="" />
+              </div>
+              <div class="px-4">
+                <h3>Free Exchange</h3>
+                <p class="text-muted fw-semibold">
+                  Everybody is different, which is why we offer styles for every
+                  body.
+                </p>
+              </div>
+            </div>
+            <div class="d-flex">
+              <div class="icon">
+                <img width="78px" src="images/icons/image 14.png" alt="" />
+              </div>
+              <div class="px-4">
+                <h3>Contact Our Seller</h3>
+                <p class="text-muted fw-semibold">
+                  Everybody is different, which is why we offer styles for every
+                  body.
+                </p>
+              </div>
+            </div>
 
+          </div>
+          <div class="col-lg-6">
+            <div>
+              <img width="596px" class="img-fluid" src="images/icons/XMLID 1.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-
-
-
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
