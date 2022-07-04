@@ -4,3 +4,8 @@
 .text-color{
     color: rgb(89, 255, 0);
 }
+
+.banner{
+    background-size: cover;
+    height: 100vh;
+}
